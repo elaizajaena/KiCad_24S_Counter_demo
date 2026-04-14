@@ -1516,7 +1516,7 @@
 		(uuid "4b989481-0bc2-4ae6-b81f-7431520128c4")
 		(at 121.31 83.69)
 		(property "Reference" "U3"
-			(at -3.27678 -17.66043 0)
+			(at 0.19 11.31 0)
 			(layer "F.SilkS")
 			(uuid "993ecb0b-ef8c-48d5-b785-93b04c80cdd7")
 			(effects
@@ -3792,7 +3792,7 @@
 		(uuid "8a18a523-dcbe-4ce8-b6b3-4cbba4e5b4cc")
 		(at 108.31 83.73)
 		(property "Reference" "U1"
-			(at -2.77678 -20.26043 0)
+			(at -0.81 11.27 0)
 			(layer "F.SilkS")
 			(uuid "b715f78f-e936-4a97-893e-58183879ff1a")
 			(effects
@@ -6690,19 +6690,92 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 95.5 52)
-		(end 180 124.5)
+	(gr_arc
+		(start 95.5 55)
+		(mid 96.37868 52.87868)
+		(end 98.5 52)
 		(stroke
 			(width 0.0381)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "af895e76-7cc8-487f-a83a-26ff276650a6")
+		(uuid "fc6377ae-ce0f-4698-b659-b402dea4a23f")
+	)
+	(gr_line
+		(start 95.5 121.5)
+		(end 95.5 55)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "91f441c8-c7ff-4f19-a7a0-1bc080f6a27b")
+	)
+	(gr_line
+		(start 98.5 52)
+		(end 177 52)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e1b70cf8-f43f-41a2-abd8-f4e0e11edd57")
+	)
+	(gr_arc
+		(start 98.5 124.5)
+		(mid 96.37868 123.62132)
+		(end 95.5 121.5)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d8118e02-8d33-4512-a695-0207130dc68d")
+	)
+	(gr_arc
+		(start 177 52)
+		(mid 179.12132 52.87868)
+		(end 180 55)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4a23e2c9-ed53-404b-9af1-3c787cbcd5ec")
+	)
+	(gr_line
+		(start 177 124.5)
+		(end 98.5 124.5)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1ad7a2c2-6880-4a3d-be91-09704cb3c843")
+	)
+	(gr_line
+		(start 180 55)
+		(end 180 121.5)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "60740ead-c4e9-4a15-b108-8138c17b6db6")
+	)
+	(gr_arc
+		(start 180 121.5)
+		(mid 179.12132 123.62132)
+		(end 177 124.5)
+		(stroke
+			(width 0.0381)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6eca7857-93eb-4107-9da0-152d2639fa95")
 	)
 	(gr_text "Design Enginneer\nJaena,Elaiza\nDate:\n13 Apr 2026"
-		(at 122 62.5 0)
+		(at 118 65.5 0)
 		(layer "F.SilkS")
 		(uuid "27a3ced0-81aa-42f6-bd1a-de52be882896")
 		(effects
@@ -6715,7 +6788,7 @@
 		)
 	)
 	(gr_text "24 SECOND COUNTER"
-		(at 122 55 0)
+		(at 117 58 0)
 		(layer "F.SilkS" knockout)
 		(uuid "ea75ebb2-8c07-4729-b366-6c984df6fca7")
 		(effects
